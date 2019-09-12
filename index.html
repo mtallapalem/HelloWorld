@@ -1,0 +1,79 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML Cheat Sheet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Headings -->
+    <h1> Header One</h1>
+    <h2> Header Two</h2>
+    <h3> Header Three</h3>
+    <h4> Header Four</h4>
+    <h5> Header Five</h5>
+    <h6> Header Six</h6>
+    <p> 
+        Lorem ipsum dolor sit amet <strong> consectetur adipisicing elit </strong>. Rerum praesentium similique <a href = "http://google.com" target="_blank">quae distinctio</a> quasi voluptates fugiat corporis ea harum consequuntur tempora illum dolores enim pariatur magnam esse, sit reprehenderit alias?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet <em> consectetur adipisicing </em> elit. Rerum praesentium similique quae distinctio quasi voluptates fugiat corporis ea harum consequuntur tempora illum dolores enim pariatur magnam esse, sit reprehenderit alias?
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mahendra Tallapalem</td>
+                <td>mahendra@email.com</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>Rekha Tallapalem</td>
+                <td>rekha@email.com</td>
+                <td>29</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Forms-->
+    <form action="process.php" method = "POST">
+        <div>
+            <label> First Name </label>
+            <input type="text" name = "firstName" placeholder="enter first name">
+        </div>  
+        <br>
+        <div>
+            <label> Last Name</label>
+            <input type="input" name = "lastName">
+        </div>
+        <br/>
+        <div>
+            <label> Email</label>
+            <input type="email" name = "email">
+        </div>
+        <div>   
+            <label> Gender</label>
+            <select>name="gender"
+                <option value="male">Male</option>
+                <option value="female">Female</option>    
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+                <input type="submit" name="submit" value="Submit">
+        </div>
+        <a href="sample.jpeg">
+            <img src="sample.jpeg" alt = "Sample image" width="200">
+        </a>
+    </form>
+</body>
+</html>
